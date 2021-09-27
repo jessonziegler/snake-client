@@ -22,6 +22,7 @@ const commands = {
   a: "Move: left",
   s: "Move: down",
   d: "Move: right",
+  k: "Say: hello",
 }
 const command = commands[key]
 console.log(command)
@@ -32,3 +33,4 @@ if (command) connection.write(command);
 module.exports = {
   setupInput,
   }
+
